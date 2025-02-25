@@ -1,6 +1,6 @@
 ## Fundamentos de Programación
 # Proyecto de laboratorio: Gestión Grados Universitarios.
-# Parte II
+# Parte III
 
 **Autores:** Toñi Reina
 
@@ -8,7 +8,7 @@
 
 - Definir tipos utilizando herencia.
 
-En este tercer bloque vamos a reutilizar mediante herencia los tipos `Persona` y `Espacio` definidos en la Parte I [PARTE-01.md](./PARTE-01.md) para implementarlos tipos `Alumno`, `Profesor` y `Despacho` mediante las descripciones que se indican a continuación.
+En este tercer bloque vamos a reutilizar mediante herencia los tipos `Persona` y `Espacio` definidos en la Parte I [PARTE-01.md](./PARTE-01.md) para implementar los tipos `Alumno`, `Profesor` y `Despacho` mediante las descripciones que se indican a continuación.
 
 ### Alumno
 
@@ -20,12 +20,12 @@ El tipo `Alumno` tendrá un constructor para poder crear un alumno a partir de t
 
 Se considera que dos alumnos son iguales si tienen el mismo DNI, apellidos y nombre. Los alumnos se ordenan de forma natural utilizando el mismo criterio que cualquier otra persona.
 
-La representación de un alumno será el número del curso seguido del carácter ‘º’, entre paréntesis, seguido de un espacio y la representación como cadena de la persona. Por ejemplo, "(1º)28864657W – García Vaquero, Pascual – 15/09/1998”. **Nota**: hasta que no se implemente la propiedad curso, use un interrogante (?) para representar el curso del alumno; coloque un TODO para añadirlo más adelante. 
+La representación de un alumno será el número del curso seguido del carácter ‘º’, entre paréntesis, seguido de un espacio y la representación como cadena de la persona. Por ejemplo, "(1º) 28864657W – García Vaquero, Pascual – 15/09/1998”. **Nota**: hasta que no se implemente la propiedad curso, use un interrogante (?) para representar el curso del alumno; coloque un TODO para añadirlo más adelante. 
 
 Además, sobre un alumno se pueden realizar las siguientes operaciones:
 
 Operaciones:
-- `matriculaAsignatura`, que dada una asignatura, añade esa asignatura a la lista de asignaturas en las que está matriculado el alumno. Si el alumno ya está matriculado en esa asignatura, se elevará la excepción `IllegalArgumentException`.
+- `matriculaAsignatura`, que dada una asignatura, añade esa asignatura al conjunto de asignaturas en las que está matriculado el alumno. Si el alumno ya está matriculado en esa asignatura, se elevará la excepción `IllegalArgumentException`.
 - `eliminaAsignatura`, 	que dada una asignatura, la elimina de la lista de asignatura en las que está matriculado el alumno. Si el alumno no está matriculado en esa asignatura, se elevará la excepción `IllegalArgumentException`.
 - `estaMatriculadoEn`, que dada una asignatura devuelve `true` si el alumno está matriculado en la asignatura dada, y `false` en caso contrario.
 
@@ -43,7 +43,7 @@ Se considera que dos profesores son iguales si tienen el mismo DNI, nombre y ape
 
 Sobre un profesor se pueden realizar las siguientes operaciones:
 
-- `nuevaTutoria`, que dados una hora de comienzo, de tipo `LocalTime`, un número entero que representa la una duración y un día de la semana (de tipo `DayOfWeek`), añade una nueva tutoría al profesor con esos datos.
+- `nuevaTutoria`, que dados una hora de comienzo, de tipo `LocalTime`, un número entero que representa la duración y un día de la semana (de tipo `DayOfWeek`), añade una nueva tutoría al profesor con esos datos.
 - `borraTutoria`, que dados una hora de comienzo (de tipo `LocalTime`) y un día de la semana (de tipo `DayOfWeek`), elimina la tutoría con el día y hora de comienzo indicados; si el profesor no tenía esa tutoría, la operación no tiene efecto.
 - `borraTutorias`, que elimina todas las tutorías del profesor.
 
