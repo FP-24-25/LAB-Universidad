@@ -26,7 +26,7 @@ Además, sobre un alumno se pueden realizar las siguientes operaciones:
 
 Operaciones:
 - `matriculaAsignatura`, que dada una asignatura, añade esa asignatura al conjunto de asignaturas en las que está matriculado el alumno. Si el alumno ya está matriculado en esa asignatura, se elevará la excepción `IllegalArgumentException`.
-- `eliminaAsignatura`, 	que dada una asignatura, la elimina de la lista de asignatura en las que está matriculado el alumno. Si el alumno no está matriculado en esa asignatura, se elevará la excepción `IllegalArgumentException`.
+- `eliminaAsignatura`, 	que dada una asignatura, la elimina del conjunto de asignaturas en las que está matriculado el alumno. Si el alumno no está matriculado en esa asignatura, se elevará la excepción `IllegalArgumentException`.
 - `estaMatriculadoEn`, que dada una asignatura devuelve `true` si el alumno está matriculado en la asignatura dada, y `false` en caso contrario.
 
 _____________
