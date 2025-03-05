@@ -12,7 +12,7 @@ En este tercer bloque vamos a reutilizar mediante herencia los tipos `Persona` y
 
 ### Alumno
 
-Un `Alumno` tiene las mismas propiedades y operaciones que una persona, y además, tiene las siguientes propiedades específicas de un alumno: un conjunto de *asignaturas*, que representa las asignaturas en las que está matriculado el alumno; y el *curso* del alumno. El curso de un alumno es el mayor de los cursos de las asignaturas en que está matriculado, o 0 si no está matriculado en ninguna asignatura. Esta propiedad no se implementa de momento. 
+Un `Alumno` tiene las mismas propiedades y operaciones que una persona, y además, tiene las siguientes propiedades específicas de un alumno: un conjunto de *asignaturas*, que representa las asignaturas en las que está matriculado el alumno; y el *curso* del alumno. El curso de un alumno es el mayor de los cursos de las asignaturas en que está matriculado, o 0 si no está matriculado en ninguna asignatura. Esta propiedad no se implementa de momento. Esta propiedad no se implementa de momento. Además, todos los alumnos tienen un *expediente* en el que registran las calificaciones obtenidas por el alumno en las distintas asignaturas en las que está matriculado.
 
 El email de un alumno no puede ser la cadena vacía y debe acabar en “@alum.us.es”. 
 
@@ -28,7 +28,7 @@ Operaciones:
 - `matriculaAsignatura`, que dada una asignatura, añade esa asignatura al conjunto de asignaturas en las que está matriculado el alumno. Si el alumno ya está matriculado en esa asignatura, se elevará la excepción `IllegalArgumentException`.
 - `eliminaAsignatura`, 	que dada una asignatura, la elimina del conjunto de asignaturas en las que está matriculado el alumno. Si el alumno no está matriculado en esa asignatura, se elevará la excepción `IllegalArgumentException`.
 - `estaMatriculadoEn`, que dada una asignatura devuelve `true` si el alumno está matriculado en la asignatura dada, y `false` en caso contrario.
-
+- `evaluaAsignatura`, que dados una asignatura, un curso, una convocatoria, una nota, y si el alumno tiene mención de honor, y añade esta información al expendiente del alumno, siempre que el alumno esté matriculado en la asignatura dada. Si el alumno no está matriculado en la asignatura, se elevará la excepción `IllegalArgumentException`.
 _____________
 
 ### Profesor
