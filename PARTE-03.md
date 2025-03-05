@@ -12,7 +12,7 @@ En este tercer bloque vamos a reutilizar mediante herencia los tipos `Persona` y
 
 ### Alumno
 
-Un `Alumno` tiene las mismas propiedades y operaciones que una persona, y además, tiene las siguientes propiedades específicas de un alumno: un conjunto de *asignaturas*, que representa las asignaturas en las que está matriculado el alumno; y el *curso* del alumno. El curso de un alumno es el mayor de los cursos de las asignaturas en que está matriculado, o 0 si no está matriculado en ninguna asignatura. Esta propiedad no se implementa de momento. Esta propiedad no se implementa de momento. Además, todos los alumnos tienen un *expediente* en el que registran las calificaciones obtenidas por el alumno en las distintas asignaturas en las que está matriculado.
+Un `Alumno` tiene las mismas propiedades y operaciones que una persona, y además, tiene las siguientes propiedades específicas de un alumno: un conjunto de *asignaturas*, que representa las asignaturas en las que está matriculado el alumno; y el *curso* del alumno. El curso de un alumno es el mayor de los cursos de las asignaturas en que está matriculado, o 0 si no está matriculado en ninguna asignatura. Esta propiedad no se implementa de momento. Además, todos los alumnos tienen un *expediente* en el que registran las calificaciones obtenidas por el alumno en las distintas asignaturas en las que está matriculado.
 
 El email de un alumno no puede ser la cadena vacía y debe acabar en “@alum.us.es”. 
 
