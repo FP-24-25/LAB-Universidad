@@ -30,16 +30,20 @@ Estas entidades se irán definiendo poco a poco a lo largo varios laboratorios, 
 
 ### **Parte I**
 
-En esta primera parte diseñaremos tipos base que se implemetarán como clases o como records y los correspondientes enumerados para darle soporte. La descripción de los ejercicios de este bloque se encuentra en el archivo [PARTE-01.md](./PARTE-01.md)
+En esta primera parte diseñaremos tipos base que se implemetarán como clases o como records y los correspondientes enumerados para darle soporte. La descripción de los ejercicios de este bloque se encuentra en el archivo [PARTE-01.md](./PARTE-01.md).
 
 ### **Parte II**
 
-En esta segunda parte enriqueceremos los tipos implementados en la Parte I con restricciones, criterios de igualdad y orden, e implementaremos nuestros primeros tipos contenedores. La descripción de los ejercicios de este bloque se encuentra en el archivo [PARTE-02.md](./PARTE-02.md)
+En esta segunda parte enriqueceremos los tipos implementados en la Parte I con restricciones, criterios de igualdad y orden, e implementaremos nuestros primeros tipos contenedores. La descripción de los ejercicios de este bloque se encuentra en el archivo [PARTE-02.md](./PARTE-02.md).
 
 ### **Parte III**
 
-En esta tercera parte implementaremos nuevos tipos reutilizando mediante herencia algunos de los tipos ya definidos. La descripción de los ejercicios de este bloque se encuentra en el archivo [PARTE-03.md](./PARTE-03.md)
+En esta tercera parte implementaremos nuevos tipos reutilizando mediante herencia algunos de los tipos ya definidos. La descripción de los ejercicios de este bloque se encuentra en el archivo [PARTE-03.md](./PARTE-03.md).
 
 ### **Parte IV**
 
-En esta cuarta parte implementaremos constructores a partir de String, una factoría y métodos que se implementan aplicando tratamientos secuencias con bucles. La descripción de los ejercicios de este bloque se encuentra en el archivo [PARTE-04.md](./PARTE-04.md)
+En esta cuarta parte implementaremos constructores a partir de String, una factoría y métodos que se implementan aplicando tratamientos secuencias con bucles. La descripción de los ejercicios de este bloque se encuentra en el archivo [PARTE-04.md](./PARTE-04.md).
+
+### **Parte V**
+
+En esta quinta, y última, parte implementaremos operaciones reacionadas con `Map` y `SortedMap`. La descripción de los ejercicios de este bloque se encuentra en el archivo [PARTE-05.md](./PARTE-05.md).
